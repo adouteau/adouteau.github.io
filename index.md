@@ -3,35 +3,10 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+#  About 
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+I'm Antoine Douteau, PhD Student of the [GREYC](https://www.greyc.fr/) Laboratory in Caen, France since October 2024. I'm part of the [AMACC](https://www.greyc.fr/equipes/amacc/) team under the supervision of [Adeline Roux-Langlois](https://langloi227.users.greyc.fr/index.html). I achieved a [Master's degree in Cryptology and Cybersecurity](https://mastercsi.labri.fr/) from the University of Bordeaux in 2024. 
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+I'm mainly interested in lattice-based cryptography and zero-knowledge proof. In particular, studying security proofs over new (relaxed) lattice-based assumptions, I did an internship focused on the use of the [Hint-MLWE](https://doi.org/10.1007/978-3-031-38554-4_18) assumption to complete a rejection-free framework of PoK. 
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+More about me, I like cycling, badminton, theater and video games. I'm also fascinated by experimental and techno music techniques.  

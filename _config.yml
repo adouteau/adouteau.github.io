@@ -20,10 +20,10 @@
 
 # Setup
 title:            Antoine Douteau
-tagline:          'A Douteau'
-description:      'PhD Student in laboratory GREYC. \n Mostly intersted in lattice-based cryptography and Zero-Knowledge proofs.'
+tagline:          'Antoine Douteau'
+description:      'PhD Student in laboratory GREYC. \n Mostly interested in lattice-based cryptography and Zero-Knowledge proofs.'
 url:              https://adouteau.github.io
-baseurl:          "/"
+baseurl:          /
 
 email: antoine.douteau@unicaen.fr
 description: >- # this means to ignore newlines until "baseurl:"
