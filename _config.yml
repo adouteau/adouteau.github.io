@@ -26,8 +26,10 @@ url:              https://adouteau.github.io
 baseurl:          https://adouteau.github.io/
 
 email: antoine.douteau@unicaen.fr
-description: >- # this means to ignore newlines until "baseurl:"
-  PhD Student in laboratory GREYC. \n Mostly interested in lattice-based cryptography and Zero-Knowledge proofs.
+description:
+  PhD Student in laboratory GREYC. 
+interests:
+  Interested in Lattice-based cryptography, Zero-Knowledge proofs
 
 
 github_username:  adouteau
